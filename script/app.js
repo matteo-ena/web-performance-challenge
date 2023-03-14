@@ -1,13 +1,9 @@
 const CONTENT_BREAKING_NEWS = "BREAKING NEWS: 5 people arrested for non designing responsively ***** Sprite popularity drops even further after new, less sugary, drink introduction.*****"
 
-const acceptCookies = () => {
+function acceptCookies() {
   document.body.classList.remove('no-scroll');
   document.querySelector('.cookieLayer__base').classList.add('cookieLayer__base--accepted');
 };
-
-const cookieLayerButton = document.querySelector('.cookieLayer__button');
-
-cookieLayerButton.addEventListener('click', acceptCookies());
 
 const dynamicContent = () => {
   const marqueeBar = document.querySelector('marquee');
@@ -29,3 +25,6 @@ const gif = '<div style="width:400px;max-width:100%;"><div style="height:0;paddi
 window.addEventListener('load', () => {
   initAd();
 });
+
+const cookieLayerButton = document.querySelector('.cookieLayer__button');
+cookieLayerButton.addEventListener('click', acceptCookies());
