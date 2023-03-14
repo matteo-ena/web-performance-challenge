@@ -1,6 +1,3 @@
-window.scrollTo(0, 0);
-document.body.classList.add('no-scroll');
-
 const CONTENT_BREAKING_NEWS = "BREAKING NEWS: 5 people arrested for non designing responsively ***** Sprite popularity drops even further after new, less sugary, drink introduction.*****"
 
 // advertisment mock
