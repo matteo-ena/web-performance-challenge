@@ -15,6 +15,10 @@
   display: none;
 }
 
+.cookieLayer__base--accepted {
+  display: none;
+}
+
 .cookieLayer__title {
   font-size: 35px;
   margin-bottom: 30px;
