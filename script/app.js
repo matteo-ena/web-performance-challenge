@@ -25,4 +25,4 @@ const dynamicContent = () => {
 dynamicContent();
 
 const cookieLayerButton = document.querySelector('.cookieLayer__button');
-cookieLayerButton.addEventListener('click', this.acceptCookies());
+cookieLayerButton.addEventListener('click', () => this.acceptCookies());
