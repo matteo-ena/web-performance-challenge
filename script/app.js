@@ -2,7 +2,7 @@ const CONTENT_BREAKING_NEWS = "BREAKING NEWS: 5 people arrested for non designin
 
 const acceptCookies = () => {
   document.body.classList.remove('no-scroll');
-  document.querySelector('.cookieLayer__base').classList.add('cookieLayer__base--accepted');
+  document.querySelector('.cookieLayer__base').classList.add('.cookieLayer__base--hidden');
 };
 
 const cookieLayerButton = document.querySelector('.cookieLayer__button');
