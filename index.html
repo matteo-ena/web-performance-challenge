@@ -28,6 +28,7 @@
         style.id = id;
         style.innerHTML = def;
         parent.appendChild(style);
+        console.log(style);
       }
 
       function removeStyle(parent, id) {
@@ -49,7 +50,6 @@
         removeStyle(getParent(), STYLE_ID);
       }, timeout);
     }(window, document, "body {opacity: 0 !important}", 3000));
-    console.log(style);
   </script>
   <script>
     // advertisment mock
