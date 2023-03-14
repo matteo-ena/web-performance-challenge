@@ -6,7 +6,6 @@ const acceptCookies = () => {
 };
 
 const dynamicContent = () => {
-  const teasers = document.querySelectorAll('.teaser__text');
   const marqueeBar = document.querySelector('marquee');
 
   // mock content delay
