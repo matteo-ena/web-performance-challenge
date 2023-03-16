@@ -18,6 +18,6 @@
   text-decoration: none;
 }
 
-.footer__sponsor {
+.footer__sponsor a {
   color: var(--color-light-gray);
 }
