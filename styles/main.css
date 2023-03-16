@@ -8,6 +8,14 @@ body {
   font-family: 'Alegreya', serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
 .main__advertising {
   background-color: var(--color-light-gray);
   padding: 30px 100px;
