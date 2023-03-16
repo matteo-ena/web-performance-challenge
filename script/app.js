@@ -28,3 +28,7 @@ cookieLayerButton.addEventListener('click', () => acceptCookies());
 window.addEventListener('beforeunload', () => {
   window.scrollTo(0, 0);
 });
+
+window.addEventListener('load', () => {
+  document.querySelector('.cookieLayer__base').classList.remove('hidden');
+});
