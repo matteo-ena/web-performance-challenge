@@ -1,8 +1,9 @@
 .form__base {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding: 0 40px;
+  max-height: 300px;
 }
 
 .form__label {
