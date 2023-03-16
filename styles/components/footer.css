@@ -17,3 +17,7 @@
   color: var(--color-white);
   text-decoration: none;
 }
+
+.footer__sponsor {
+  color: var(--color-light-gray);
+}
