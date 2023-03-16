@@ -25,9 +25,6 @@ dynamicContent();
 const cookieLayerButton = document.querySelector('.cookieLayer__button');
 cookieLayerButton.addEventListener('click', () => acceptCookies());
 
-const cookieLayer = document.querySelector('.cookieLayer__base');
-cookieLayer.style.top = window.scrollY;
-
 window.addEventListener('beforeunload', () => {
   window.scrollTo(0, 0);
 });
