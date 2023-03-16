@@ -16,6 +16,20 @@
   .teaser__base {
     width: 100%;
   }
+
+  .form__button {
+    margin-top: 20px;
+    height: 48px;
+  }
+
+  textarea {
+    min-height: 48px;
+  }
+
+  .footer__link,
+  .footer__sponsor {
+    line-height: 3rem;
+  }
 }
 
 @media screen and (max-width: 990px) {
