@@ -13,9 +13,7 @@
   position: absolute;
   top: 70%;
   left: 20px;
-  font-size: 35px;
   font-weight: bold;
   color: var(--color-white);
-  max-width: 65%;
   z-index: 1;
 }
