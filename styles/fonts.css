@@ -8,6 +8,7 @@
         url('../fonts/alegreya-v29-latin-regular.woff') format('woff'), /* Modern Browsers */
         url('../fonts/alegreya-v29-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
         url('../fonts/alegreya-v29-latin-regular.svg#Alegreya') format('svg'); /* Legacy iOS */
+  font-display: swap;
 }
 /* alegreya-900 - latin */
 @font-face {
@@ -19,4 +20,5 @@
         url('../fonts/alegreya-v29-latin-900.woff') format('woff'), /* Modern Browsers */
         url('../fonts/alegreya-v29-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
         url('../fonts/alegreya-v29-latin-900.svg#Alegreya') format('svg'); /* Legacy iOS */
+  font-display: swap;
 }
