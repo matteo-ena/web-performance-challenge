@@ -12,6 +12,11 @@
   max-width: 1200px;
 }
 
+.header__logo {
+  width: 100%;
+  height: auto;
+}
+
 .header__image {
   width: 250px;
 }
