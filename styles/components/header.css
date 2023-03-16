@@ -17,10 +17,6 @@
   height: auto;
 }
 
-.header__image {
-  width: 250px;
-}
-
 .navigation__list {
   display: flex;
 }
